@@ -40,7 +40,7 @@ function App() {
             </div>
             <div className='h-full w-full mt-2 bg-[#31313a] rounded-xl md:rounded-none md:rounded-r-xl md:w-2/4 md:h-3/4'>
               <h2>paginas</h2>
-            </div>
+            </div>  
       </div>
           
   )
