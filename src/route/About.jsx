@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
-import Slider from "../components/slider"
+import Slider from "../components/Slider";
+
 
 
 export default function About() {
@@ -15,8 +16,8 @@ export default function About() {
           Actualmente poseo habilidades en HTML, CSS, Javascript, React, Next js y TailwindCss puedes ver mis proyectos haciendo click <Link to="/projects" className="text-one">aqui</Link>. 
         </h3>
         <div className="flex mt-10">
-          <marquee behavior="" direction="">
-            <Slider/>
+          <marquee>
+                <Slider/>
           </marquee>
         </div>
       </div>
