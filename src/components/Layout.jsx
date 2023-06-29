@@ -28,7 +28,7 @@ export default function Layout({children}) {
             <div className='flex flex-col justify-center items-center h-fullun md:h-[700px] md:flex-row'>
                 <div className='flex flex-col h-full w-full bg-[#31313a] rounded-xl md:h-5/6 md:w-2/4'>
                     <div className='mt-4'>
-                        <img src="./src/assets/miFoto.png" alt="" className='w-36 h-36 rounded-full m-auto'/>
+                        <img src="./src/assets/miFoto.webp" alt="" className='w-36 h-36 rounded-full m-auto'/>
                     </div>
                     <div className='mt-4'>
                         <h2 className='text-one font-extrabold text-2xl md:text-4xl'>Oscar Echezuría</h2>
