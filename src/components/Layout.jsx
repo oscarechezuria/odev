@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react'
 import { FaLinkedinIn, FaUserLarge, FaLaptopCode } from "react-icons/fa6"
 import { Link } from 'react-router-dom'
 import Typed from "typed.js"
+import miFoto from "../assets/MiFoto.webp"
 
 
 
@@ -28,7 +29,7 @@ export default function Layout({children}) {
             <div className='flex flex-col justify-center items-center h-fullun md:h-[700px] md:flex-row'>
                 <div className='flex flex-col h-full w-full bg-[#31313a] rounded-xl md:h-5/6 md:w-2/4'>
                     <div className='mt-4'>
-                        <img src="./src/assets/miFoto.webp" alt="" className='w-36 h-36 rounded-full m-auto'/>
+                        <img src={miFoto} alt="" className='w-36 h-36 rounded-full m-auto'/>
                     </div>
                     <div className='mt-4'>
                         <h2 className='text-one font-extrabold text-2xl md:text-4xl'>Oscar Echezuría</h2>
